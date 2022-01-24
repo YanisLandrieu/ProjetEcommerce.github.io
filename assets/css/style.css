@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('http://fonts.cdnfonts.com/css/manga-temple');
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 1.5em; 
+}
+
+/* ------------------------------------------
+HEADER
+------------------------------------------ */
+
+.site-header {
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+  }
+  .header-wrapper {
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo img {
+    height: auto;
+    width: 100px;
+    margin-left: 30px;
+  
+  }
+  .menu {
+    height: 100px;
+    display: flex;
+  }
+  .menu-item {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: inherit;
+    padding: 0 25px;
+    text-decoration: none;
+
+  }
+  .menu-item-account {
+    width: 85px;
+    height: 85px;
+    margin-top: 10px;
+  }
+
+span {
+  margin-top: 31px;
+  margin-right: 3px;
+}
+
+.panier {
+width: 70px;
+height: 70px;
+}
+
+.search {
+  margin-bottom: 3px;
+}
+
+
+
+/* ------------------------------------------
+Footer
+------------------------------------------ */
+
+
+footer img {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------
+Contenu
+------------------------------------------ */
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 5px;
+}
+
+#figurineTable {
+  margin-top: 40px;
+}
+
+.modal{
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.modal.show{
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-content{
+  background-color: white;
+  max-width: 50vw;
+  margin: auto;
+  flex: 1;
+  position: relative;
+}
+
+.modal-close{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.modal-header{
+  padding-left: 10px;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.modal-body{
+  padding: 10px;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.modal-footer{
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  text-align: right;
+}
+
+.btn1 {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: darkcyan;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-close{
+  border-radius: 10px;
+  background-color: red;
+}
+
+.modal-body img {
+  height: 100px;
+  width: 120px;
+}
+
+.modal-footer p {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.modal-body svg {
+  height: 20px;
+  width: 20px;
+}
+
+.supprimer {
+  margin-left: 10px;
+}
+
+

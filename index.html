@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo_sekai_2.jpg">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Sekai - Figurines Mangas</title>
+</head>
+<body>
+    <!-- Header du site Sekai -->
+    <header class="site-header">
+        <div class="header-wrapper">
+          <a  href="#" class="menu-item menu-item-account search" role="button" data-target="#modal" data-toggle="modal"><svg xmlns="http://www.w3.org/2000/svg" width="101.487" height="101.487" viewBox="0 0 101.487 101.487">
+            <path id="Icon_map-search" data-name="Icon map-search" d="M75.7,62.2A40.135,40.135,0,1,0,62.191,75.7l27.231,27.229,13.5-13.511ZM41.483,66.259A24.759,24.759,0,1,1,66.255,41.514,24.8,24.8,0,0,1,41.483,66.259Z" transform="translate(-1.44 -1.44)" fill="#fff"/>
+          </svg>
+          </a>
+            <a href="#" class="logo">
+                <img src="assets/img/logo_sekai_2.jpg" alt="Logo Travel Corp">
+            </a>
+            <nav class="menu" >
+                <a href="#" class="menu-item menu-item-account">
+                  <svg role="button" data-target="#modal" data-toggle="modal" xmlns="http://www.w3.org/2000/svg" width="125.506" height="111.561" viewBox="0 0 125.506 111.561">
+                    <path id="Icon_awesome-cart-arrow-down" data-name="Icon awesome-cart-arrow-down" d="M109.974,69.726H46.1L47.526,76.7h58.486a5.23,5.23,0,0,1,5.1,6.388l-1.2,5.29a12.207,12.207,0,1,1-13.857,2.267H50.372a12.2,12.2,0,1,1-14.609-1.866L20.456,13.945H5.229A5.229,5.229,0,0,1,0,8.716V5.229A5.229,5.229,0,0,1,5.229,0H27.57a5.229,5.229,0,0,1,5.123,4.181l2,9.764h85.584a5.229,5.229,0,0,1,5.1,6.388l-10.3,45.322A5.229,5.229,0,0,1,109.974,69.726ZM87.817,41.835H78.441V28.762a2.615,2.615,0,0,0-2.615-2.615H70.6a2.615,2.615,0,0,0-2.615,2.615V41.835H58.607A2.615,2.615,0,0,0,56.758,46.3L71.363,60.9a2.615,2.615,0,0,0,3.7,0L89.666,46.3A2.615,2.615,0,0,0,87.817,41.835Z" fill="#fff"/>
+                  </svg>
+                </a>
+                <!-- <span alt="notif-mise-panier">0</span> -->
+            </nav>
+        </div>
+    </header>
+    <!-- Contenu du site Sekai -->
+<div class="container">
+    <h2 class="text-center mt-3">Les Figurines Du Moment</h2>
+  <div id="figurineTable" class="row mt-3 p-3">
+
+  </div>
+  
+  <div class="modal" id="modal" role="dialog">
+    <div class="modal-content">
+        <div class="modal-close" data-dismiss="dialog">X</div>
+        <div class="modal-header">
+            <p>Mon Panier</p>
+        </div>
+        <div class="modal-body">
+          <div class='row no-gutters'>
+            <div class='col-md-4'>
+              <img class='img-fluid' src='assets/img/sasuke.webp' />
+            </div>
+            <div class='col-md-7 pl-2'>
+              <h5 class="pt-3 pt-md-0">Sasuke uchiha</h5>
+              <p class='text'>Figurine articulée de Sasuke Uchiha version 'He who bears all Hatred' de la collection S.H Figuarts éditée pour le manga Naruto.</p>
+              <p class='text' style='font-weight: bold; font-size: 1.5em;'>57,99 €</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+                <path id="Icon_material-add" data-name="Icon material-add" d="M38.5,25.214H25.214V38.5H20.786V25.214H7.5V20.786H20.786V7.5h4.429V20.786H38.5Z" transform="translate(-7.5 -7.5)"/>
+              </svg>
+              <svg class="supprimer" xmlns="http://www.w3.org/2000/svg" width="32.755" height="4.66" viewBox="0 0 32.755 4.66">
+                <path id="Icon_material-remove" data-name="Icon material-remove" d="M40.255,21.16H7.5V16.5H40.255Z" transform="translate(-7.5 -16.5)"/>
+              </svg>
+                            
+
+          </div>
+        </div>
+        </div>
+        <div class="modal-footer">
+          <p>Sous-total : 57,99 €</p>
+            <a href="#" class="btn1 btn-close" role="button" data-dismiss="dialog"></a>
+            <a href="#" class="btn1" role="button">Valider</a>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Footer du site Sekai -->
+<footer class=" text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn  btn-floating m-1" href="" role="button"
+          ><img src="assets/img/facebook.png" alt=""></a>
+  
+        <!-- Twitter -->
+        <a class="btn  btn-floating m-1" href="#!" role="button"
+          ><img src="./assets/img/twitter.png" alt=""></a>
+  
+        <!-- Instagram -->
+        <a class="btn  btn-floating m-1" href="#!" role="button"
+          ><img src="./assets/img/instagram.png" alt=""></a>
+  
+        <!-- Linkedin -->
+        <a class="btn  btn-floating m-1" href="#!" role="button"
+          ><img src="./assets/img/linkedin.png" alt=""></a>
+  
+        <!-- Github : Lien Repository -->
+        <a class="btn btn-floating m-1" href="https://github.com/YanisLandrieu/ProjetEcommerce.github.io" role="button"
+          ><img src="./assets/img/github.png" alt="">
+        </a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class=" bg-dark text-center p-3" >
+        <div class="text-white row m-auto ">
+            <p class="col-4 text-start">©Sekai</p>
+            <p class="col-4 text-center">CGU</p>
+            <p class="col-4 text-end">Mentions Légales</p>
+        </div>
+    </div>
+  </footer>
+
+<script type="text/javascript" src="./assets/js/script.js"></script>    
+</body>
+</html>
